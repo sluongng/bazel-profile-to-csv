@@ -5,12 +5,7 @@
 # slice n dice the metrics.
 #
 # Sample usage:
-#
-# # Download the artifacts from BuildKite
-# > ./bkite-art.sh
-#
-# # Extract the analyze-profile data to a CSV file
-# > ./profile-to-csv.sh | tee output.csv
+#   ./profile-to-csv.sh | tee output.csv
 
 URL_PREFIX="https://buildkite.com/<my-org>/<my-pipelines>/builds"
 
